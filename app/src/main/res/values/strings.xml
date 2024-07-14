@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Codsoft AlramApp</string>
+    <string name="alarm_app">Alarm Setter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="set">Set</string>
+    <string name="setAlarm">Alarm Set</string>
+    <string name="setTime">Set Time</string>
+    <string name="date">date</string>
+    <string name="alarmName">Alarm Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+</resources>

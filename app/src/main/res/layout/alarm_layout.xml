@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="@dimen/size_5dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="@dimen/size_10dp"
+    app:cardCornerRadius="@dimen/size_10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/size_15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvtitlealarm"
+                android:layout_width="match_parent"
+
+                android:textColor="#815500"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size_10dp"
+
+                android:text="alarm"
+                android:textSize="@dimen/size_15dp"
+                />
+
+            <TextView
+                android:id="@+id/tvalarmtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size_10dp"
+                android:textColor="#815500"
+                android:text="alarm"
+                android:textSize="@dimen/size_25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:layout_weight="1"
+            android:textColor="#815500"
+            android:id="@+id/toggleButton"
+            />
+
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="#815500"
+            android:text="@string/date"
+            android:textSize="@dimen/size_10dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
